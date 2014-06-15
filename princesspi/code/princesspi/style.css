@@ -1,0 +1,44 @@
+body {
+    font-family: Georgia,Palatino,serif;
+    background-color: #FFDDDD;
+}
+
+pre {
+    font-family: "Comic Sans MS",Palatino,ariel;
+}
+
+h1.title {
+    color: purple;
+	font-size: 3em;
+}
+
+img { border: 0; }
+
+.hidden { display: none; }
+
+input[type=text],textarea { 
+    border: 2px solid purple;
+    background-color: #FFEEEE;
+}
+
+input[type=text]:focus,textarea:focus {
+    border: 2px solid pink;
+}
+
+select {
+    border: 2px solid purple;
+    background-color: #FFEEEE;
+}
+
+select:focus {
+    border: 2px solid pink;
+}
+
+input[type=button],input[type=file],input[type=submit] {
+    border: 2px solid purple;
+    background: #FFEEEE;
+}
+
+input[type=button]:hover,input[type=file]:hover,input[type=submit]:hover {
+    background: #FFAAAA;
+}

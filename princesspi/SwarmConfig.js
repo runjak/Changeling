@@ -1,0 +1,3 @@
+var vect = ["http://192.168.1.56/PrincessPi.com/code/princesspi/networkstatus.php","http://192.168.1.56/PrincessPi.com/code/princesspi/networkstatus.php","http://192.168.1.56/PrincessPi.com/code/princesspi/networkstatus.php","http://192.168.1.56/PrincessPi.com/code/princesspi/networkstatus.php","http://192.168.1.56/PrincessPi.com/code/princesspi/networkstatus.php","http://192.168.1.56/PrincessPi.com/code/princesspi/networkstatus.php","http://192.168.1.56/PrincessPi.com/code/princesspi/networkstatus.php","http://192.168.1.56/PrincessPi.com/code/princesspi/networkstatus.php","http://192.168.1.56/PrincessPi.com/code/princesspi/networkstatus.php"];
+
+alert('Config File Loaded');

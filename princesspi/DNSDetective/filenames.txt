@@ -1,0 +1,6 @@
+robots.txt
+crossdomain.xml
+cpanel
+webmail
+cgi-bin
+admin
