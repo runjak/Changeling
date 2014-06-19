@@ -1,7 +1,7 @@
 <?php
 $filenames = "../config/filenames.txt";
 if($_POST['domain']) {
-$fileslist = explode("\n",file_get_contents($filenames));
+$fileslist = explode("\r\n",file_get_contents($filenames));
 }
 
 $pstart = '<div class="overflow">';

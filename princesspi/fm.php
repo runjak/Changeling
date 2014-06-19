@@ -25,7 +25,7 @@ $ft['plugins'] = array();
 
 # Settings - Change as appropriate. See online documentation for explanations. #
 define("USERNAME", "princesspi"); // Your default username.
-define("PASSWORD", "password"); // Your default password.
+define("PASSWORD", "CactuS101"); // Your default password.
 
 $ft["settings"]["DIR"]			   = ".."; // Your default directory. Do NOT include a trailing slash!
 $ft["settings"]["LANG"]			  = "en"; // Language. Do not change unless you have downloaded language file.

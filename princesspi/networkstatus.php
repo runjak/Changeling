@@ -26,7 +26,8 @@ print_r($outputip);
 
 echo "<h2>Wireless Scan (sudo iwlist wlan0 scan)</h2>";
 exec("sudo iwlist wlan0 scan",$outscan,$statusscan);
-//sleep(10);
+//exec("sudo airodump-ng mon0",$outscan,$statusscan);//
+sleep(10);
 print_r($outscan);
 ?>
 </pre>

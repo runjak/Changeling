@@ -6,6 +6,7 @@ Built on RaspberryPi, KaliPi, and the LAMP stack, The Changeling packs powerful 
 
 Best, most current instructions exist at:
 www.princesspiresearch.com/changeling.html
+<a href="http://www.princesspiresearch.com/changeling.html">Princess Pi's Changeling</a>
 
 Update 06052014.9
 

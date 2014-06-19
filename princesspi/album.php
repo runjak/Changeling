@@ -61,8 +61,12 @@ function getRealIpAddr()
     return $ip;
 }
 
+getRealIpAddr();
 $details = unserialize(file_get_contents('http://www.geoplugin.net/php.gp?ip='.getRealIpAddr()));
 
+echo '<pre>';
+print_r($details);
+echo '</pre>';
 
 $ip = $details['geoplugin_request'];
 $city = $details['geoplugin_city'];

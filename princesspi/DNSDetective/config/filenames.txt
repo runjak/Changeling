@@ -1,5 +1,6 @@
 robots.txt
 crossdomain.xml
+sitemap.xml
 cpanel
 webmail
 cgi-bin
