@@ -114,6 +114,14 @@ $(document).ready(function(){
       $("#files").html(data);
     });
 
+    $.post("exec/whois.php",
+    {
+      domain:$("#domain").val()
+    },
+    function(data,status){
+      $("#whois").html(data);
+    });
+
     $.post("exec/exec_load.php",
     {
       domain:$("#domain").val()
@@ -151,6 +159,12 @@ $(document).ready(function(){
 <pre id="files">
 Waiting...
 </pre>
+
+<h3>Whois:</h3>
+<pre id="whois">
+Loading...
+</pre>
+
 </div>
 <p class="clear"><img src="../images/princesspismall.png"></p>
 
